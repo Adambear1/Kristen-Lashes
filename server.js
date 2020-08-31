@@ -37,6 +37,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 app.use("/api/inventory", require("./routes/Inventory"));
+app.use("/api/clients", require("./routes/Clients"));
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
