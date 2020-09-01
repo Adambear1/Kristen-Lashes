@@ -1,0 +1,51 @@
+.shop-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.card-body-home-option:hover .shop-overlay {
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: whitesmoke;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+li:nth-child(1) {
+  left: 0;
+  margin-right: 20px;
+}
+li:nth-child(2) {
+  margin-right: 20px;
+}
+li:nth-child(3) {
+  margin-right: 20px;
+  right: 0;
+}

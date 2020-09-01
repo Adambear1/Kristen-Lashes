@@ -1,0 +1,18 @@
+.picture {
+  height: 100%;
+  width: auto;
+  object-position: center;
+  object-fit: cover;
+}
+
+.picture-container,
+.carousel-inner {
+  height: 300px;
+  width: auto;
+  object-position: center;
+  object-fit: cover;
+}
+
+.carousel {
+  border-radius: 10px;
+}
