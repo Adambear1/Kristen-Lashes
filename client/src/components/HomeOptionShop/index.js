@@ -10,17 +10,14 @@ function HomeOptionShop() {
           <div class="text">
             <ul>
               <li>
-                <a href="#">Lashes</a>
+                <a href="/shop#lashes">Lashes</a>
               </li>
               <li>
-                <a href="#">Cosmetics</a>
+                <a href="/shop#cosmetics">Cosmetics</a>
               </li>
 
               <li>
-                <a href="#">Sales</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
+                <a href="/shop#sales">Sales</a>
               </li>
             </ul>
           </div>

@@ -4,7 +4,7 @@ function HomeOptionContact() {
   return (
     <div class="card border-secondary mb-3" styles="max-width: 18rem;">
       <div class="card-body text-secondary card-body-home-option">
-        <h5 class="card-title">Shop</h5>
+        <h5 class="card-title">Contact</h5>
         <div class="contact-overlay">
           <div class="text">
             <div class="row">
