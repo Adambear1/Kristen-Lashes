@@ -15,10 +15,6 @@ function HomeOptionShop() {
               <li class="shop-li">
                 <a href="/shop#cosmetics">Cosmetics</a>
               </li>
-
-              <li class="shop-li">
-                <a href="/shop#sales">Sales</a>
-              </li>
             </ul>
           </div>
         </div>

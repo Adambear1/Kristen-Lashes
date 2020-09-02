@@ -1,0 +1,12 @@
+.shop-header-nav ul {
+  text-align: center !important;
+  margin: 0px !important;
+  padding-bottom: 0px !important;
+}
+.shop-header-li {
+  display: inline;
+}
+
+.shop-header-li a:hover {
+  text-decoration: underline white;
+}
