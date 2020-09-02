@@ -18,10 +18,10 @@ function Jumbotron() {
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active picture-container my-5">
+        <div class="carousel-item active picture-container mt-3">
           <img class="d-block w-100 picture" src={image1} alt="First slide" />
         </div>
-        <div class="carousel-item picture-container my-5">
+        <div class="carousel-item picture-container mt-3">
           <img class="d-block w-100 picture" src={image} alt="Second slide" />
         </div>
       </div>

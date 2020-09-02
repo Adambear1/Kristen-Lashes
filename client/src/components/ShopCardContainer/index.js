@@ -9,7 +9,7 @@ function ShopCardContainer() {
       price: "$35.00",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3qhf-VqafYj4kZc63BNhrmYq7-7s0NEkhGw&usqp=CAU",
-      sale: false,
+      sale: true,
     },
     {
       index: 1,
@@ -25,7 +25,7 @@ function ShopCardContainer() {
       price: "$25.00",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlzFdLFBTx__UWWcscRNmlYkRTvjk1ehKvjA&usqp=CAU",
-      sale: true,
+      sale: false,
     },
     {
       index: 3,
@@ -33,7 +33,7 @@ function ShopCardContainer() {
       price: "$20.00",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3qhf-VqafYj4kZc63BNhrmYq7-7s0NEkhGw&usqp=CAU",
-      sale: false,
+      sale: true,
     },
     {
       index: 4,
@@ -80,6 +80,7 @@ function ShopCardContainer() {
                     name={item.name}
                     image={item.image}
                     price={item.price}
+                    sale={item.sale}
                   />
                 </div>
               </div>

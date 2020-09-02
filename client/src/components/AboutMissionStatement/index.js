@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 function AboutMissionStatement() {
   return (
-    <div class="container">
+    <div class="container mt-5">
       <div class="row">
         <div class="col-sm-12">
           <div class="mission-container mx-2 my-2 px-5 py-2">

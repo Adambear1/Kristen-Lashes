@@ -8,7 +8,7 @@ import HomeOptionSubscriptions from "../../components/HomeOptionSubscriptions";
 function Home() {
   return (
     <div className="container">
-      <div className="row mb-5">
+      <div className="row mb-4">
         <Jumbotron />
       </div>
       <div className="row">
