@@ -8,9 +8,17 @@ function HomeOptionContact() {
         <div class="contact-overlay">
           <div class="text">
             <div class="row">
-              <a href="tel:2535555555">Phone: (253) - 555 -5555</a>
+              <ul>
+                <li>
+                  <a href="tel:2535555555">Phone: (253) - 555 -5555</a>
+                </li>
+                <li>
+                  <a href="mailto:kristen@lashes.com">
+                    Email: kristen@lashes.com
+                  </a>
+                </li>
+              </ul>
             </div>
-            <a href="mailto:kristen@lashes.com">Phone: kristen@lashes.com</a>
           </div>
         </div>
         <p class="card-text">

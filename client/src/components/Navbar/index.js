@@ -3,7 +3,7 @@ import "./styles.css";
 function Navbar() {
   return (
     <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand navbar-header" href="#">
+      <a class="navbar-brand navbar-header" href="/">
         Kristen Lashes
       </a>
       <form class="form-inline">

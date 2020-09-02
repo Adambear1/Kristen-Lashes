@@ -8,15 +8,15 @@ function HomeOptionShop() {
         <h5 class="card-title">Shop</h5>
         <div class="shop-overlay">
           <div class="text">
-            <ul>
-              <li>
+            <ul class="shop-ul">
+              <li class="shop-li">
                 <a href="/shop#lashes">Lashes</a>
               </li>
-              <li>
+              <li class="shop-li">
                 <a href="/shop#cosmetics">Cosmetics</a>
               </li>
 
-              <li>
+              <li class="shop-li">
                 <a href="/shop#sales">Sales</a>
               </li>
             </ul>

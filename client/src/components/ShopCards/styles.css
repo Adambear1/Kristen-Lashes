@@ -1,0 +1,40 @@
+.sale {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s ease;
+  border: 2px solid gold;
+}
+
+.sale h3 {
+  text-align: center;
+  color: gold;
+  margin-top: 20px;
+}
+
+.sale:hover {
+  background-color: rgba(251, 255, 0, 0.1);
+}
+
+.no-sale {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  border: 2px solid black;
+}
+
+.no-sale:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+}

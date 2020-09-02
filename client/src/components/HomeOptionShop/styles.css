@@ -35,17 +35,17 @@ a:hover {
 ul {
   list-style-type: none;
 }
-li {
+.shop-li {
   display: inline;
 }
-li:nth-child(1) {
+.shop-li:nth-child(1) {
   left: 0;
   margin-right: 20px;
 }
-li:nth-child(2) {
+.shop-li:nth-child(2) {
   margin-right: 20px;
 }
-li:nth-child(3) {
+.shop-li:nth-child(3) {
   margin-right: 20px;
   right: 0;
 }

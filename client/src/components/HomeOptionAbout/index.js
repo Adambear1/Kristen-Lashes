@@ -9,7 +9,17 @@ function HomeOptionAbout() {
         <div class="about-overlay">
           <div class="text">
             <div class="row">
-              <a href="tel:2535555555">Kirtsen Lashes</a>
+              <ul>
+                <li class="about-li">
+                  <a href="/about#missionstatement">Mission Statement</a>
+                </li>
+                <li class="about-li">
+                  <a href="/about#history">History</a>
+                </li>
+                <li class="about-li">
+                  <a href="/about#location">Location</a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
