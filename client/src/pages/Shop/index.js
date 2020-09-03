@@ -1,12 +1,12 @@
 import React from "react";
-import ShopCardContainer from "../../components/ShopCardContainer";
 import ShopHeader from "../../components/ShopHeader";
+import ShopBody from "../../components/ShopBody";
 
 function Shop() {
   return (
     <>
       <ShopHeader />
-      <ShopCardContainer />
+      <ShopBody />
     </>
   );
 }

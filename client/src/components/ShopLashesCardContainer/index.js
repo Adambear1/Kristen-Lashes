@@ -1,7 +1,7 @@
 import React from "react";
-import ShopCards from "../ShopCards";
+import ShopLashesCards from "../ShopLashesCards";
 
-function ShopCardContainer() {
+function ShopLashesCardContainer() {
   let product = [
     {
       index: 0,
@@ -76,7 +76,7 @@ function ShopCardContainer() {
             item.index < 3 && (
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card-group">
-                  <ShopCards
+                  <ShopLashesCards
                     name={item.name}
                     image={item.image}
                     price={item.price}
@@ -95,7 +95,7 @@ function ShopCardContainer() {
             item.index < 8 && (
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card-group">
-                  <ShopCards
+                  <ShopLashesCards
                     name={item.name}
                     image={item.image}
                     price={item.price}
@@ -111,4 +111,4 @@ function ShopCardContainer() {
   );
 }
 
-export default ShopCardContainer;
+export default ShopLashesCardContainer;

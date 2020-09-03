@@ -1,0 +1,66 @@
+.shop-shop-carousel,
+.shop-carousel-inner {
+  height: 125vh;
+}
+
+.shop-carousel-control-prev-icon,
+.shop-carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+  transition: 0.1s ease;
+}
+
+.shop-carousel-control-next-icon:after {
+  content: ">";
+  font-size: 55px;
+  color: gold;
+}
+
+.shop-carousel-control-prev-icon:after {
+  content: "<";
+  font-size: 55px;
+  color: gold;
+}
+.shop-carousel-control-prev-icon:hover,
+.shop-carousel-control-next-icon:hover {
+  background-color: rgba(255, 215, 0, 0.1);
+  border: 1.5px solid black;
+}
+
+@media (max-width: 600px) {
+  .shop-carousel-control-next-icon,
+  .shop-carousel-control-prev-icon {
+    border: none;
+    width: 100px;
+  }
+  .shop-carousel-control-prev-icon:hover,
+  .shop-carousel-control-next-icon:hover {
+    border: none;
+    background-color: none;
+  }
+  .shop-shop-carousel,
+  .shop-carousel-inner {
+    height: 315vh !important;
+  }
+}
+@media (max-width: 1150px) {
+  .shop-carousel-control-next-icon,
+  .shop-carousel-control-prev-icon {
+    border: none;
+    width: 100px;
+  }
+  .shop-carousel-control-prev-icon:hover,
+  .shop-carousel-control-next-icon:hover {
+    border: none;
+    background-color: none;
+  }
+  .shop-shop-carousel,
+  .shop-carousel-inner {
+    height: 50% !important;
+  }
+}

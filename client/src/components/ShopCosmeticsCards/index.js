@@ -1,7 +1,6 @@
 import React from "react";
-import "./styles.css";
 
-function ShopCards(props) {
+function ShopCosmeticsCards(props) {
   return (
     <div class="card mx-3 my-3">
       {props.sale ? (
@@ -23,4 +22,4 @@ function ShopCards(props) {
   );
 }
 
-export default ShopCards;
+export default ShopCosmeticsCards;

@@ -16,9 +16,6 @@ function HomeOptionAbout() {
                 <li class="about-li">
                   <a href="/about#history">History</a>
                 </li>
-                <li class="about-li">
-                  <a href="/about#location">Location</a>
-                </li>
               </ul>
             </div>
           </div>

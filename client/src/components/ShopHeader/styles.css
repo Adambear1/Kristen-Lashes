@@ -10,3 +10,7 @@
 .shop-header-li a:hover {
   text-decoration: underline white;
 }
+
+.active {
+  text-decoration: underline white;
+}
