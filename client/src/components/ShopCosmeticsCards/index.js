@@ -2,7 +2,7 @@ import React from "react";
 
 function ShopCosmeticsCards(props) {
   return (
-    <div class="card mx-3 my-3">
+    <div class="card mx-3 my-3 animate__animated animate__fadeIn">
       {props.sale ? (
         <div class="sale">
           <h3>Sale</h3>

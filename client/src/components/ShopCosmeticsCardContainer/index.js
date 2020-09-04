@@ -45,26 +45,26 @@ function ShopCosmeticsCardContainer() {
     },
     {
       index: 5,
-      name: "Diego Dalla Lip Stick Collection",
+      name: "Lip Plumper",
       price: "$55.00",
       image:
-        "https://lh3.googleusercontent.com/proxy/KTjFZWZFUg5eG3Q9luGCsLS8TbPWMmWxWTh-Bc3dUNmrj_-C7ba8h10sdrf_j3IwkWPH5JxPl_plt2Qb3OnB10W_COtDLqWfFE_FcaWphXCm95p6GVSrx1JIM04EOVz-9MrHublvZ0Hc1awOf1PC0END4FPCOFOucq5CATfCgFHi3g",
+        "https://images.ulta.com/is/image/Ulta/2568801?op_sharpen=1&resMode=bilin&qlt=85&wid=800&hei=800&fmt=jpg",
       sale: false,
     },
     {
       index: 6,
-      name: "Lyla",
+      name: "Grande Lips",
       price: "$30.00",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlzFdLFBTx__UWWcscRNmlYkRTvjk1ehKvjA&usqp=CAU",
+        "https://cdn.shopify.com/s/files/1/0098/9023/4434/products/GN4010_GrandeLIPS_Gloss_SpicyMauve_01_8daef1e8-94b0-4e9f-9f50-422a7bce3f08.jpg?v=1591797913",
       sale: true,
     },
     {
       index: 7,
-      name: "Ela",
+      name: "Lucy and Co",
       price: "$30.00",
       image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS3qhf-VqafYj4kZc63BNhrmYq7-7s0NEkhGw&usqp=CAU",
+        "https://media.cmsmax.com/o4mrf6dsp429hyaehstcs/lucy-co-lip-plumper-1.jpg",
       sale: false,
     },
   ];

@@ -6,7 +6,7 @@ function Jumbotron() {
   return (
     <div
       id="carouselExampleIndicators"
-      class="carousel slide"
+      class="carousel slide animate__animated animate__fadeIn"
       data-ride="carousel"
     >
       <ol class="carousel-indicators">

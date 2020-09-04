@@ -3,7 +3,7 @@ import "./styles.css";
 
 function AboutHistory() {
   return (
-    <div class="container about-history-container mt-5">
+    <div class="container about-history-container mt-5 animate__animated animate__fadeInUp">
       <div class="row">
         <div class="col-sm-12">
           <div class="about-container mx-2 my-2 px-5 py-5">

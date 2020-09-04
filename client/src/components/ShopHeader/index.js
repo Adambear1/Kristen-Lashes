@@ -1,31 +1,25 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.css";
-import { Context } from "../Context";
 
 function ShopHeader() {
   const [value, setValue] = useState();
 
   function onClick(e) {
-    let val = e.target.id;
-    setValue(val);
+    setValue(e.target.id);
   }
-
   useEffect(() => {
-    console.log(value);
     if (value === "next") {
-      console.log(value);
       setTimeout(() => document.querySelector(`#next`).removeAttribute("href"));
       document.querySelector(`#next`).classList.add("active");
       document.querySelector(`#prev`).classList.remove("active");
       document.querySelector(`#prev`).href = "#carouselExampleControls";
     } else if (value === "prev") {
-      console.log(value);
       setTimeout(() => document.querySelector(`#prev`).removeAttribute("href"));
       document.querySelector(`#prev`).classList.add("active");
       document.querySelector(`#next`).classList.remove("active");
       document.querySelector(`#next`).href = "#carouselExampleControls";
     }
-  });
+  }, [value]);
 
   return (
     <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary shop-header-nav">

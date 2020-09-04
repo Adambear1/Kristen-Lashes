@@ -3,7 +3,10 @@ import "./styles.css";
 
 function HomeOptionSubscriptions() {
   return (
-    <div class="card border-secondary mb-3" styles="max-width: 18rem;">
+    <div
+      class="card border-secondary mb-3 animate__animated animate__fadeIn"
+      styles="max-width: 18rem;"
+    >
       <div class="card-body text-secondary card-body-home-option">
         <h5 class="card-title">Subscriptions</h5>
         <div class="subscriptions-overlay">

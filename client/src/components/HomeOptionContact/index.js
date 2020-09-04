@@ -2,7 +2,10 @@ import React from "react";
 import "./styles.css";
 function HomeOptionContact() {
   return (
-    <div class="card border-secondary mb-3" styles="max-width: 18rem;">
+    <div
+      class="card border-secondary mb-3 animate__animated animate__fadeIn"
+      styles="max-width: 18rem;"
+    >
       <div class="card-body text-secondary card-body-home-option">
         <h5 class="card-title">Contact</h5>
         <div class="contact-overlay">
